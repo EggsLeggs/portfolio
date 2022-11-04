@@ -2,6 +2,10 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  target: 'static',
+  router: {
+    base: '/portfolio/'
+  },
   head: {
     title: 'portfolio',
     meta: [
