@@ -29,9 +29,6 @@ module.exports = {
   /*
   ** Build configuration
   */
-  buildModules: [
-    '@nuxt/postcss8',
-  ],
   build: {
     /*
     ** Run ESLint on save
@@ -45,16 +42,7 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    },
-    postcss: {
-      plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
-      },
-    },
-  },
-  css: [
-    '@/assets/css/main.css',
-  ],
+    }
+  }
 }
 
