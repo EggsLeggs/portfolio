@@ -14,6 +14,14 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  purgeCSS: {
+    whitelist: [
+      'scroll-snap-container',
+      'fullscreen',
+      'horizontal',
+   ]
+  },
+  components: true,
   /*
   ** Customize the progress bar color
   */
