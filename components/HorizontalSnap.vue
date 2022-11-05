@@ -1,23 +1,8 @@
 <template>
-    <div class="scroll-snap-container" :class="{'fullscreen': {fullscreen}, 'horizontal': {horizontal} }">
+    <div  class="scroll-snap-container" :class="{'fullscreen': fullscreen, 'horizontal': horizontal }">
         <slot></slot>
     </div>
 </template>
-
-<script lang="ts" setup>
-defineProps({
-    fullscreen: {
-        type: Boolean,
-        default: false,
-        required: false
-    },
-    horizontal: {
-        type: Boolean,
-        default: false,
-        required: false
-    }
-})
-</script>
 
 <style>
     .scroll-snap-container {
@@ -73,3 +58,21 @@ defineProps({
         flex: 1;
     }
 </style>
+
+<script lang="ts" setup>
+    // props
+    const props = defineProps({
+    fullscreen: {
+        type: Boolean,
+        default: false,
+    },
+    horizontal: {
+        type: Boolean,
+        default: false,
+    },
+    type: {
+        type: String,
+        default: 'primary',
+    },
+    })
+</script>
