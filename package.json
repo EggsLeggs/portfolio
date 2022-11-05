@@ -6,11 +6,14 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.1.3",
     "nuxt": "3.0.0-rc.13",
     "push-dir": "^0.4.1"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
