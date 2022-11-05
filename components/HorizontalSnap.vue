@@ -1,5 +1,5 @@
 <template>
-    <div  class="scroll-snap-container" :class="{'fullscreen': fullscreen, 'horizontal': horizontal }">
+    <div @mousewheel="scrollX" class="scroll-snap-container" :class="{'fullscreen': fullscreen, 'horizontal': horizontal }">
         <slot></slot>
     </div>
 </template>
@@ -60,6 +60,13 @@
 </style>
 
 <script lang="ts" setup>
+    const scrollX = (e: WheelEvent) => {
+        const container = document.querySelector('.scroll-snap-container.horizontal');
+        if (container) {
+            container.scrollBy(e.deltaY, 0);
+        }
+    }
+    
     // props
     const props = defineProps({
     fullscreen: {
