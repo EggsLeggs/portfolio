@@ -1,0 +1,376 @@
+# Projects
+# Featured projects will always appear first, sorted by date
+# Regular projects are sorted by date and limited by maxVisible setting
+# Add `endDate` to show a range; use `present` for ongoing projects.
+
+- title: GateKeeper
+  description: A Discord bot that drives engagement and provides tools to safeguard communities. Currently supporting over 1.8 million users across 5000+ servers.
+  featured: true
+  date: 2021-03
+  endDate: present
+  technologies:
+    - Next.js
+    - TypeScript
+    - Tailwind CSS
+    - Discord.js
+    - Python
+    - Pycord
+    - PostgreSQL
+    - Docker
+  links:
+    - icon: link
+      label: Website
+      url: https://gatekeeperbot.net
+    - icon: discord
+      label: Invite
+      url: https://invite.gatekeeperbot.net
+  tags:
+    - thinkhuman
+
+- title: Explore Britain
+  description: Building a multilingual, cross-platform UK travel guide with curated itineraries, cultural context, and locally sourced recommendations that work online or off.
+  featured: true
+  date: 2025
+  endDate: present
+  technologies:
+    - Next.js
+    - Tailwind CSS
+    - TypeScript
+    - PostgreSQL
+    - Payload CMS
+    - React Native
+    - Expo
+    - Google Cloud Platform
+    - Docker
+    - Swift
+  tags:
+    - thinkhuman
+
+- title: NeoStudio
+  description: 48-hour hackathon platform on SpoonOS + Neo that turns smart contract creation into drag-and-drop flows, with built-in testing and one-click deployment to the Neo network.
+  featured: false
+  date: 2025-12-05
+  endDate: 2025-12-07
+  technologies:
+    - Railway.app
+    - React
+    - TypeScript
+    - Tailwind CSS
+    - Docker
+    - Neo Blockchain
+    - Web3
+    - SpoonOS
+    - ElevenLabs
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/pralisha-shrestha/Agentic-Hackathon-with-SpoonOS
+    - icon: pdf
+      label: Pitch Deck
+      url: /portfolio/projects/neostudio-presentation.pdf
+  tags:
+    - hackathon
+
+- title: USDC Hopper
+  description: A hackathon project built on Arc blockchain that allows users to swap USDC for other tokens.
+  featured: false
+  date: 2025-11-14
+  endDate: 2025-11-16
+  technologies:
+    - Arc
+    - Web3
+    - Docker
+    - TypeScript
+    - Tailwind CSS
+    - React
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/EggsLeggs/usdc-hopper-hackathon
+    - icon: pdf
+      label: Pitch Deck
+      url: /portfolio/projects/usdc-hopper-presentation.pdf
+  tags:
+    - hackathon
+
+- title: Prompt Puppeteer
+  description: Cursor Hackathon multiplayer game where players duel with AI prompts over Convex realtime backends, racing to craft the best prompts in timed rounds.
+  featured: false
+  date: 2025-11-03
+  endDate: 2025-11-03
+  technologies:
+    - React
+    - Convex
+    - OpenAI API
+    - Docker
+    - TypeScript
+    - Tailwind CSS
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/EggsLeggs/cursor-and-convex-hackathon
+  tags:
+    - hackathon
+
+- title: Proctora
+  description: Built on Concordium blockchain, Proctora brings on-chain transparency to online exams with privacy-preserving ID verification and on-chain grading.
+  featured: false
+  date: 2025-10-24
+  endDate: 2025-10-26
+  award: First Place — Encode London Hackathon (Concordium Track)
+  technologies:
+    - React
+    - Concordium
+    - Web3
+    - Docker
+    - TypeScript
+    - Tailwind CSS
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/EggsLeggs/proctora-hackathon
+    - icon: pdf
+      label: Pitch Deck
+      url: /portfolio/projects/proctora-presentation.pdf
+  tags:
+    - hackathon
+
+- title: AlgoBounty
+  description: An EasyA x Algorand Hackathon project that allows users to pledge to open-source issues on GitHub using the Algorand blockchain.
+  featured: false
+  date: 2025-10-18
+  endDate: 2025-10-29
+  technologies:
+    - Algorand
+    - Web3
+    - Docker
+    - TypeScript
+    - Tailwind CSS
+    - React
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/EggsLeggs/algobounty
+    - icon: pdf
+      label: Pitch Deck
+      url: /portfolio/projects/algobounty-presentation.pdf
+  award: Second Place — EasyA x Algorand Hackathon (Pitching Track)
+  tags:
+    - hackathon
+    - algorand-startup-challenge
+
+- title: KCL Calendar Enrichment Tool
+  description: A Python-based API that enhances the King's College London calendar with additional events and information.
+  featured: false
+  date: 2025-09
+  endDate: 2025-09
+  technologies:
+    - FastAPI
+    - Python
+    - Docker
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/EggsLeggs/kcl-calendar-enricher
+  tags:
+    - quick-tool
+    - kcl
+
+- title: ReelHouse Magazine
+  description: Commissioned by Reelhouse and built by ThinkHuman, this site serves as both a digital hub for editorial content and an online storefront for magazine issues and merchandise. Built on Ghost CMS.
+  featured: false
+  date: 2025-08
+  endDate: 2025-09
+  technologies:
+    - Ghost CMS
+    - HTML
+    - CSS
+    - Handlebars
+    - JavaScript
+    - Tailwind CSS
+    - Docker
+  links:
+    - icon: link
+      label: Website
+      url: https://reelhouse.co.uk
+  tags:
+    - thinkhuman
+
+- title: InfiniteCraft Discord Activity
+  description: Discord Buildathon 2024 entry recreating InfiniteCraft/Little Alchemy as a multiplayer Discord Activity, with shared crafting logic and live state sync inside the client.
+  featured: false
+  date: 2024-03
+  endDate: 2024-03
+  technologies:
+    - TypeScript
+    - React
+    - Node.js
+    - Discord Activities
+    - CSS
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/EggsLeggs/infinitecraft-discord-activity
+  tags:
+    - hackathon
+
+- title: Discord Stratagem Hero
+  description: A Discord Activity that lets friends play Stratagem Hero from the popular game Helldivers 2 together inside Discord, with shared state and simple client/server sync.
+  featured: false
+  date: 2024-03
+  endDate: 2024-03
+  technologies:
+    - TypeScript
+    - React
+    - Node.js
+    - Discord Activities
+    - CSS
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/EggsLeggs/discord-stratagem-hero
+  tags:
+    - quick-tool
+
+- title: Kazuha Countdown Bot
+  description: A Discord bot that updates a channel name to count down to the Kazuha banner launch in Genshin Impact, built quickly for the Kazuha Mains community.
+  featured: false
+  date: 2021-06
+  endDate: 2021-06
+  technologies:
+    - Python
+    - Discord.py
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/EggsLeggs/Kazuha-Countdown
+  tags:
+    - quick-tool
+
+- title: Kazuha Counter Bots
+  description: A set of lightweight Discord bots that track message counts and leaderboards for small community events in the Kazuha Mains server.
+  featured: false
+  date: 2021-06
+  endDate: 2021-06
+  technologies:
+    - Python
+    - Discord.py
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/EggsLeggs/Kazuha-Counter
+  tags:
+    - quick-tool
+
+- title: Dumpling Fusion
+  description: Next.js Firebase Studio demo that used the full Firebase suite plus Gemini to generate “dumpling fusion” concepts—pick a shell, pick a filling, get AI-crafted name, imagery, and a whacky recipe.
+  featured: false
+  date: 2025-06
+  endDate: 2025-06
+  technologies:
+    - Next.js
+    - TypeScript
+    - Firebase
+    - Firebase Auth
+    - Firestore
+    - Cloud Storage
+    - Cloud Functions
+    - Gemini
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/EggsLeggs/dumpling-fusion
+  tags:
+    - quick-tool
+
+- title: StatRelay
+  description: Stat dissemination platform for Discord bots with a single relay endpoint to fan out metrics to listing sites; built with a Next.js front end and Bun-powered backend.
+  featured: false
+  date: 2024-12
+  endDate: 2025-05
+  technologies:
+    - Next.js
+    - TypeScript
+    - Tailwind CSS
+    - NextAuth.js
+    - shadcn/ui
+    - Bun
+    - PostGIS
+    - Directus
+    - Redis
+    - Stripe
+    - Docker
+  tags:
+    - quick-tool
+
+- title: CVE-2025-29927 Testing Tool
+  description: Bash and PowerShell scripts to detect Next.js apps vulnerable to CVE-2025-29927, covering version detection and middleware bypass probes.
+  featured: false
+  date: 2025-08
+  endDate: 2025-08
+  technologies:
+    - Bash
+    - PowerShell
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/EggsLeggs/CVE-2025-29927-Testing
+  tags:
+    - quick-tool
+
+- title: Simple Currency Converter
+  description: PWA travel tool that converts currencies offline with periodically refreshed exchange rates from Float Rates, offering a clean interface for quick checks while on the go.
+  featured: false
+  date: 2024-07
+  endDate: 2024-07
+  technologies:
+    - Next.js
+    - React
+    - TypeScript
+    - Tailwind CSS
+    - PWA
+    - Vercel
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/EggsLeggs/currency-converter
+    - icon: link
+      label: Live Site
+      url: https://currency.amory.me/
+  tags:
+    - quick-tool
+
+- title: Biometrics and Usability Testing Tool
+  description: A research-grade usability testing platform that paired mouse movement tracking with webcam-powered gaze estimation to measure attention and engagement. Administrators could run studies, validate participants, and review results through dashboards with filters and heatmaps. The Machine Vision model inferred on-screen focus from eye geometry, delivering over 70% accuracy in internal tests.
+  featured: false
+  date: 2023-10
+  endDate: 2024-04
+  technologies:
+    - React
+    - TypeScript
+    - Tailwind CSS
+    - Prisma
+    - PostgreSQL
+    - tRPC
+    - Machine Vision
+    - Vercel
+  tags:
+    - napier
+
+- title: Otsu Discord Bot
+  description: Hiragana and Katakana practice bot built for Discord Buildathon 2023, delivering quiz-style prompts via slash commands with self-hostable Docker setup.
+  featured: false
+  date: 2023-11
+  endDate: 2023-11
+  technologies:
+    - Python
+    - Discord.py
+    - Docker
+    - Makefile
+  links:
+    - icon: github
+      label: GitHub
+      url: https://github.com/EggsLeggs/otsu-discord-bot
+  award: Shortlisted — Discord Buildathon 2023
+  tags:
+    - hackathon

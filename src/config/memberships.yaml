@@ -1,0 +1,20 @@
+# Professional Memberships
+# Each membership can have:
+# - logo: path to organization logo (required)
+# - membershipType: type/level of membership (e.g., Student, Professional, Fellow)
+# - memberId: your member ID (optional)
+# - url: link to organization or your profile page
+
+- organization: IET
+  fullName: Institution of Engineering and Technology
+  membershipType: Member
+  startDate: 2025-06
+  endDate: present  # or specific date like 2024-12
+  logo: /portfolio/memberships/iet.png
+
+- organization: CIISec
+  fullName: Chartered Institute of Information Security
+  membershipType: Associate Member
+  startDate: 2022-12
+  endDate: present
+  logo: /portfolio/memberships/ciisec.jpg

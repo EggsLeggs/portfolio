@@ -1,0 +1,77 @@
+- title: "First Place - Concordium Integration Wildcard Track & Dreamspace Track (Encode London Hackathon)"
+  issuer: Concordium
+  date: 2025-10
+  description: "Built Proctora, a privacy-first exam platform using Concordium zero-knowledge identity and Dreamspace rapid UI tooling."
+  details: "Delivered trustless authentication without exposing personal data, showcasing privacy-preserving verification for online education."
+
+- title: "First Place - Innovation Game Benchmarker Track & Second Place - Innovation Game Innovator Track (Encode London Hackathon)"
+  issuer: The Innovation Game
+  date: 2025-10
+  description: "Ranked first and second across two tracks with a dynamic benchmarking framework."
+  details: "Adapted algorithm difficulty across distributed systems for TSP and Minimum Superstring problems using Rust and Python."
+
+- title: "First Place - Build with AI (GDG London Mini-Hackathon)"
+  issuer: Google Developer Groups London
+  date: 2025-10
+  description: "Won a fast-paced AI and Google Cloud challenge series focused on BigQuery and Gemini."
+  details: "Led infrastructure and generative AI tasks under leaderboard pressure alongside Google engineers."
+
+- title: "Second Place - Pitching Track (EasyA x Algorand Foundation Hackathon)"
+  issuer: Algorand Foundation
+  date: 2025-10
+  description: "Awarded for AlgoBounty, a trustless bounty platform for GitHub issues built on Algorand."
+  details: "Designed escrowed payouts, developed the prototype solo in 36 hours, and delivered the pitch."
+
+- title: "Duke of Edinburgh's Gold Award"
+  issuer: The Duke of Edinburgh's Award
+  date: 2023-09
+  description: "Completed Gold through volunteering, physical, and skills development with a focus on safer online communities."
+  details: "Strengthened leadership and resilience via expeditions and self-directed technical projects."
+
+- title: "Senior Engineering Cup"
+  issuer: The Crypt School
+  date: 2020-09
+  description: "First recipient for advancing STEM engagement across the school community."
+  details: "Led STEM and F1 in Schools teams, mentored younger students, and restored CAD/CAM facilities."
+
+- title: "Regional Finalist & Best Portfolio Design - F1 in Schools UK (Team Captain)"
+  issuer: F1 in Schools United Kingdom
+  date: 2020-03
+  description: "Recognized for engineering a competitive model F1 car and producing the winning portfolio."
+  details: "Oversaw car design, CAD/CAM workflows, and documentation for the regional finals."
+
+- title: "NCS Graduate"
+  issuer: NCS - National Citizen Service Trust
+  date: 2019-09
+  description: "Completed the National Citizen Service programme focused on teamwork and community impact."
+  details: "Delivered social action projects and leadership activities with a diverse team."
+
+- title: "Time 2 Perform (NCS)"
+  issuer: NCS - National Citizen Service Trust
+  date: 2019-09
+  description: "Participated in the creative challenge to build confidence through performance."
+  details: "Co-created, rehearsed, and delivered an original production emphasizing collaboration and presentation."
+
+- title: "National Champion - Digital Schoolhouse 2018 (Team Captain)"
+  issuer: Digital Schoolhouse
+  date: 2018-04
+  description: "Led the school esports team to a national title in the Digital Schoolhouse 3v3 Overwatch tournament."
+  details: "Founded the esports club, coordinated practice and strategy, and represented the school at nationals."
+
+- title: "Contestant - EEP Robotics Challenge Regionals (Team Captain)"
+  issuer: Tomorrow's Engineers
+  date: 2018-03
+  description: "Team lead for the regional robotics challenge entry."
+  details: "Managed robot design, programming, and testing to complete engineering tasks under time constraints."
+
+- title: "Duke of Edinburgh's Bronze Award"
+  issuer: The Duke of Edinburgh's Award
+  date: 2017-07
+  description: "Completed the Bronze Award with volunteering, physical, and skills development."
+  details: "Built teamwork and resilience through community service and outdoor expeditions."
+
+- title: "Regional Finalist - Bloodhound Challenge: Race For The Line (Team Captain)"
+  issuer: Bloodhound Education Ltd.
+  date: 2017-04
+  description: "Led the school team to regional finals in the Bloodhound rocket car challenge."
+  details: "Organized the engineering club, guided rocket car design and testing, and promoted hands-on aerodynamics learning."

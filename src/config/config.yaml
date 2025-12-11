@@ -1,0 +1,77 @@
+# Personal Information
+name: Hayden Bradley
+title: Software Engineer
+suffixes:
+  - MIET
+  - ACIIS
+location: London, UK
+
+# About Section
+about: |
+  Hi, I’m Hayden Bradley - a British developer who loves building things that actually make a difference.
+  I use technology not just to code, but to solve real problems and make life a little easier, smarter, and more connected.
+
+
+
+# Social Links
+social:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/the-hayden-bradley/
+    icon: linkedin
+  - name: GitHub
+    url: https://github.com/EggsLeggs
+    icon: github
+  - name: Cal.com
+    url: https://cal.com/hayden-bradley
+    icon: calendar
+
+# Navigation
+navigation:
+  - label: About
+    href: "#about"
+  - label: Experience
+    href: "#experience"
+  - label: Education
+    href: "#education"
+  - label: Volunteering
+    href: "#volunteering"
+  - label: Projects
+    href: "#projects"
+  - label: Awards
+    href: "#awards"
+  - label: Certifications
+    href: "#certifications"
+  - label: Memberships
+    href: "#memberships"
+
+# Projects Settings
+projects:
+  maxVisible: 6
+
+# Awards Settings
+awards:
+  maxVisible: 5
+
+# Stats
+hackathonWins: 7
+
+# Available Project Tags (customize as needed)
+projectTags:
+  - id: hackathon
+    label: Hackathon
+    color: cyan
+  - id: quick-tool
+    label: Quick Tool
+    color: purple
+  - id: thinkhuman
+    label: ThinkHuman
+    color: blue
+  - id: algorand-startup-challenge
+    label: Algorand Startup Challenge
+    color: green
+  - id: kcl
+    label: King's College London
+    color: red
+  - id: napier
+    label: Edinburgh Napier University
+    color: red
