@@ -35,6 +35,10 @@ function CertificationCard({ certification }: CertificationCardProps) {
     month: 'short',
   });
 
+  const hasCertificate = Boolean(certification.certificate);
+  const wrapCardWithPreview = hasCertificate;
+  const showViewButton = hasCertificate && !wrapCardWithPreview;
+
   const CardContent = (
     <div className="group relative flex flex-col h-full rounded-md border border-slate-700/50 bg-slate-900/50 p-6 transition-all hover:border-slate-600 hover:bg-slate-800/50">
       {/* Badge Image */}
@@ -77,7 +81,7 @@ function CertificationCard({ certification }: CertificationCardProps) {
       {/* Action Buttons */}
       <div className="mt-auto pt-4 flex flex-col gap-2">
         {/* View Certificate Button Slot */}
-        {certification.certificate && (
+        {showViewButton && certification.certificate && (
           <CertificatePreview
             certificate={certification.certificate}
             certName={certification.name}
@@ -111,7 +115,7 @@ function CertificationCard({ certification }: CertificationCardProps) {
   );
 
   // If there's a certificate, make the whole card clickable
-  if (certification.certificate) {
+  if (wrapCardWithPreview && certification.certificate) {
     return (
       <CertificatePreview
         certificate={certification.certificate}
