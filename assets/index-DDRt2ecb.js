@@ -76,6 +76,10 @@ projects:
 awards:
   maxVisible: 5
 
+# Volunteering Settings
+volunteering:
+  maxVisible: 4
+
 # Stats
 hackathonWins: 7
 
@@ -183,7 +187,7 @@ projectTags:
       url: https://github.com/pralisha-shrestha/Agentic-Hackathon-with-SpoonOS
     - icon: pdf
       label: Pitch Deck
-      url: /portfolio/projects/neostudio-presentation.pdf
+      url: /projects/neostudio-presentation.pdf
   tags:
     - hackathon
 
@@ -205,7 +209,7 @@ projectTags:
       url: https://github.com/EggsLeggs/usdc-hopper-hackathon
     - icon: pdf
       label: Pitch Deck
-      url: /portfolio/projects/usdc-hopper-presentation.pdf
+      url: /projects/usdc-hopper-presentation.pdf
   tags:
     - hackathon
 
@@ -247,7 +251,7 @@ projectTags:
       url: https://github.com/EggsLeggs/proctora-hackathon
     - icon: pdf
       label: Pitch Deck
-      url: /portfolio/projects/proctora-presentation.pdf
+      url: /projects/proctora-presentation.pdf
   tags:
     - hackathon
 
@@ -269,7 +273,7 @@ projectTags:
       url: https://github.com/EggsLeggs/algobounty
     - icon: pdf
       label: Pitch Deck
-      url: /portfolio/projects/algobounty-presentation.pdf
+      url: /projects/algobounty-presentation.pdf
   award: Second Place — EasyA x Algorand Hackathon (Pitching Track)
   tags:
     - hackathon
@@ -502,9 +506,9 @@ projectTags:
 - name: Professional Certificate in UX Design
   issuer: UX Design Institute
   date: 2025-12
-  badge: /portfolio/badges/ux-design-institute.png
+  badge: /badges/ux-design-institute.png
   certificate:
-    link: /portfolio/certificates/ux-design-institute.pdf
+    link: /certificates/ux-design-institute.pdf
     aspectRatio: "842 / 595"
     height: 633
   url: 'https://www.credential.net/76608154-1337-4b75-abb1-d04f0a163088'
@@ -512,9 +516,9 @@ projectTags:
 - name: Associate Cloud Engineer Certification
   issuer: Google
   date: 2025-11
-  badge: /portfolio/badges/google-associate-cloud-engineer.png
+  badge: /badges/google-associate-cloud-engineer.png
   certificate:
-    link: /portfolio/certificates/google-associate-cloud-engineer.pdf
+    link: /certificates/google-associate-cloud-engineer.pdf
     aspectRatio: "22 / 17"
     height: 692
   url: 'https://www.credly.com/badges/761409bc-4261-467a-986b-ab1f210a1c6d/linked_in_profile'
@@ -522,9 +526,9 @@ projectTags:
 - name: Professional Cloud Developer Certification
   issuer: Google
   date: 2025-11
-  badge: /portfolio/badges/google-professional-cloud-developer.png
+  badge: /badges/google-professional-cloud-developer.png
   certificate:
-    link: /portfolio/certificates/google-professional-cloud-developer.pdf
+    link: /certificates/google-professional-cloud-developer.pdf
     aspectRatio: "22 / 17"
     height: 692
   url: 'https://www.credly.com/badges/604eca1e-fa10-42ba-b310-952c8cef280a/linked_in_profile'
@@ -532,9 +536,9 @@ projectTags:
 - name: Cloud Digital Leader Certification
   issuer: Google
   date: 2025-10
-  badge: /portfolio/badges/google-cloud-digital-leader.png
+  badge: /badges/google-cloud-digital-leader.png
   certificate:
-    link: /portfolio/certificates/google-cloud-digital-leader.pdf
+    link: /certificates/google-cloud-digital-leader.pdf
     aspectRatio: "22 / 17"
     height: 692
   url: 'https://www.credly.com/badges/0b61bec8-ad3c-4e26-b9f7-27a8b48a1eb6/linked_in_profile'
@@ -542,18 +546,18 @@ projectTags:
 - name: Essential Digital Skills Programme
   issuer: King's College London
   date: 2025-10
-  badge: DONT-SHOW/portfolio/misc/kings-college-london.jpeg
+  badge: DONT-SHOW/misc/kings-college-london.jpeg
   certificate:
-    link: /portfolio/certificates/essential-digital-skills-certificate.pdf
+    link: /certificates/essential-digital-skills-certificate.pdf
     aspectRatio: "595 / 842"
     height: 1268
 
 - name: "HashiCorp Certified: Terraform Associate (003)"
   issuer: HashiCorp
   date: 2025-09
-  badge: /portfolio/badges/hashicorp-terraform-associate.png
+  badge: /badges/hashicorp-terraform-associate.png
   certificate:
-    link: /portfolio/certificates/hashicorp-terraform-associate.pdf
+    link: /certificates/hashicorp-terraform-associate.pdf
     aspectRatio: "22 / 17"
     height: 692
   url: 'https://www.credly.com/badges/fb5ea9b4-46eb-427a-b7b8-f6920fb706d2/linked_in_profile'
@@ -561,9 +565,9 @@ projectTags:
 - name: MongoDB Associate Developer
   issuer: MongoDB
   date: 2025-05
-  badge: /portfolio/badges/mongodb-associate-developer.png
+  badge: /badges/mongodb-associate-developer.png
   certificate:
-    link: /portfolio/certificates/mongodb-associate-developer.pdf
+    link: /certificates/mongodb-associate-developer.pdf
     aspectRatio: "22 / 17"
     height: 692
   url: 'https://www.credly.com/badges/a160c7a8-17bf-4437-9b46-253b154eb243/linked_in_profile'
@@ -571,9 +575,9 @@ projectTags:
 - name: GitHub Foundations
   issuer: GitHub
   date: 2025-05
-  badge: /portfolio/badges/github-foundations.png
+  badge: /badges/github-foundations.png
   certificate:
-    link: /portfolio/certificates/github-foundations.pdf
+    link: /certificates/github-foundations.pdf
     aspectRatio: "22 / 17"
     height: 692
   url: 'https://www.credly.com/badges/370c80e9-73c8-4cf7-8a08-801e41a82b0c/public_url'
@@ -589,14 +593,14 @@ projectTags:
   membershipType: Member
   startDate: 2025-06
   endDate: present  # or specific date like 2024-12
-  logo: /portfolio/memberships/iet.png
+  logo: /memberships/iet.png
 
 - organization: CIISec
   fullName: Chartered Institute of Information Security
   membershipType: Associate Member
   startDate: 2022-12
   endDate: present
-  logo: /portfolio/memberships/ciisec.jpg
+  logo: /memberships/ciisec.jpg
 `,Fb=`# Volunteering
 - organization: STEM Ambassadors
   position: STEM Ambassador
