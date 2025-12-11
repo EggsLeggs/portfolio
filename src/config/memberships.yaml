@@ -10,11 +10,11 @@
   membershipType: Member
   startDate: 2025-06
   endDate: present  # or specific date like 2024-12
-  logo: /portfolio/memberships/iet.png
+  logo: /memberships/iet.png
 
 - organization: CIISec
   fullName: Chartered Institute of Information Security
   membershipType: Associate Member
   startDate: 2022-12
   endDate: present
-  logo: /portfolio/memberships/ciisec.jpg
+  logo: /memberships/ciisec.jpg

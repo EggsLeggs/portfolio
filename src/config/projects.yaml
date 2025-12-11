@@ -67,7 +67,7 @@
       url: https://github.com/pralisha-shrestha/Agentic-Hackathon-with-SpoonOS
     - icon: pdf
       label: Pitch Deck
-      url: /portfolio/projects/neostudio-presentation.pdf
+      url: /projects/neostudio-presentation.pdf
   tags:
     - hackathon
 
@@ -89,7 +89,7 @@
       url: https://github.com/EggsLeggs/usdc-hopper-hackathon
     - icon: pdf
       label: Pitch Deck
-      url: /portfolio/projects/usdc-hopper-presentation.pdf
+      url: /projects/usdc-hopper-presentation.pdf
   tags:
     - hackathon
 
@@ -131,7 +131,7 @@
       url: https://github.com/EggsLeggs/proctora-hackathon
     - icon: pdf
       label: Pitch Deck
-      url: /portfolio/projects/proctora-presentation.pdf
+      url: /projects/proctora-presentation.pdf
   tags:
     - hackathon
 
@@ -153,7 +153,7 @@
       url: https://github.com/EggsLeggs/algobounty
     - icon: pdf
       label: Pitch Deck
-      url: /portfolio/projects/algobounty-presentation.pdf
+      url: /projects/algobounty-presentation.pdf
   award: Second Place — EasyA x Algorand Hackathon (Pitching Track)
   tags:
     - hackathon
