@@ -5,18 +5,18 @@ on:
     branches:
       - main
     paths:
-      - 'public/badges/**'
-      - 'scripts/generate-badge-grid.ts'
-      - 'src/config/certifications.yaml'
+      - "public/badges/**"
+      - "scripts/generate-badge-grid.ts"
+      - "src/config/certifications.yaml"
   workflow_dispatch:
 
 jobs:
   generate-badge-grid:
     runs-on: ubuntu-latest
-    
+
     permissions:
       contents: write
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -24,8 +24,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: "20"
+          cache: "npm"
 
       - name: Install dependencies
         run: npm ci
@@ -50,4 +50,3 @@ jobs:
           git add badge-grid.png
           git commit -m "chore: update badge grid image [skip ci]"
           git push
-
