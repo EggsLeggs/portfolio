@@ -54,7 +54,7 @@ awards:
 
 # Volunteering Settings
 volunteering:
-  maxVisible: 4
+  maxVisible: 3
 
 # Stats
 hackathonWins: 7
