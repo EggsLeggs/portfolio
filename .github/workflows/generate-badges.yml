@@ -33,20 +33,32 @@ jobs:
       - name: Generate badge grid
         run: npm run generate:badges
 
-      - name: Check for changes
-        id: changes
-        run: |
-          if git diff --quiet badge-grid.png 2>/dev/null; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Commit and push badge grid
-        if: steps.changes.outputs.changed == 'true'
+      - name: Deploy to assets branch
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          
+          # Save the generated image
+          cp badge-grid.png /tmp/badge-grid.png
+          
+          # Check if assets branch exists
+          if git ls-remote --heads origin assets | grep -q assets; then
+            git fetch origin assets
+            git checkout assets
+          else
+            # Create orphan branch
+            git checkout --orphan assets
+            git rm -rf .
+          fi
+          
+          # Copy image and commit
+          cp /tmp/badge-grid.png badge-grid.png
           git add badge-grid.png
-          git commit -m "chore: update badge grid image [skip ci]"
-          git push
+          
+          # Only commit if there are changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update badge grid image"
+            git push origin assets
+          fi
