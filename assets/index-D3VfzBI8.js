@@ -506,6 +506,7 @@ projectTags:
 - name: Generative AI Leader Certification
   issuer: Google
   date: 2025-12
+  tier: 3
   badge: /badges/google-generative-ai-leader.png
   certificate:
     link: /certificates/google-generative-ai-leader.pdf
@@ -516,6 +517,7 @@ projectTags:
 - name: Professional Certificate in UX Design
   issuer: UX Design Institute
   date: 2025-12
+  tier: 3
   badge: /badges/ux-design-institute.png
   certificate:
     link: /certificates/ux-design-institute.pdf
@@ -526,6 +528,7 @@ projectTags:
 - name: Associate Cloud Engineer Certification
   issuer: Google
   date: 2025-11
+  tier: 2
   badge: /badges/google-associate-cloud-engineer.png
   certificate:
     link: /certificates/google-associate-cloud-engineer.pdf
@@ -536,6 +539,7 @@ projectTags:
 - name: Professional Cloud Developer Certification
   issuer: Google
   date: 2025-11
+  tier: 3
   badge: /badges/google-professional-cloud-developer.png
   certificate:
     link: /certificates/google-professional-cloud-developer.pdf
@@ -546,6 +550,7 @@ projectTags:
 - name: Cloud Digital Leader Certification
   issuer: Google
   date: 2025-10
+  tier: 1
   badge: /badges/google-cloud-digital-leader.png
   certificate:
     link: /certificates/google-cloud-digital-leader.pdf
@@ -565,6 +570,7 @@ projectTags:
 - name: "HashiCorp Certified: Terraform Associate (003)"
   issuer: HashiCorp
   date: 2025-09
+  tier: 2
   badge: /badges/hashicorp-terraform-associate.png
   certificate:
     link: /certificates/hashicorp-terraform-associate.pdf
@@ -575,6 +581,7 @@ projectTags:
 - name: MongoDB Associate Developer
   issuer: MongoDB
   date: 2025-05
+  tier: 2
   badge: /badges/mongodb-associate-developer.png
   certificate:
     link: /certificates/mongodb-associate-developer.pdf
@@ -585,6 +592,7 @@ projectTags:
 - name: GitHub Foundations
   issuer: GitHub
   date: 2025-05
+  tier: 1
   badge: /badges/github-foundations.png
   certificate:
     link: /certificates/github-foundations.pdf
