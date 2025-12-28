@@ -1,0 +1,53 @@
+name: Generate Badge Grid
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'public/badges/**'
+      - 'scripts/generate-badge-grid.ts'
+      - 'src/config/certifications.yaml'
+  workflow_dispatch:
+
+jobs:
+  generate-badge-grid:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate badge grid
+        run: npm run generate:badges
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet badge-grid.png 2>/dev/null; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push badge grid
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add badge-grid.png
+          git commit -m "chore: update badge grid image [skip ci]"
+          git push
+
