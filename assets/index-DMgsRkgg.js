@@ -503,6 +503,16 @@ projectTags:
 # - url: link to verification page (e.g., Credly, Microsoft Learn, etc.)
 # - description: brief description of the certification
 
+- name: Generative AI Leader Certification
+  issuer: Google
+  date: 2025-12
+  badge: /badges/google-generative-ai-leader.png
+  certificate:
+    link: /certificates/google-generative-ai-leader.pdf
+    aspectRatio: "22 / 17"
+    height: 692
+  url: 'https://www.credly.com/badges/18b176d8-c6e9-4d1a-9ab6-ea19923d9262/public_url'
+
 - name: Professional Certificate in UX Design
   issuer: UX Design Institute
   date: 2025-12
@@ -695,17 +705,29 @@ projectTags:
     - WordPress
     - TypeScript
     - Machine Vision
-`,Kb=`- title: "First Place - Concordium Integration Wildcard Track & Dreamspace Track (Encode London Hackathon)"
+`,Kb=`- title: "First Place - Concordium Integration Wildcard Track (Encode London Hackathon)"
   issuer: Concordium
   date: 2025-10
-  description: "Built Proctora, a privacy-first exam platform using Concordium zero-knowledge identity and Dreamspace rapid UI tooling."
+  description: "Built Proctora, a privacy-first exam platform using Concordium zero-knowledge identity."
   details: "Delivered trustless authentication without exposing personal data, showcasing privacy-preserving verification for online education."
 
-- title: "First Place - Innovation Game Benchmarker Track & Second Place - Innovation Game Innovator Track (Encode London Hackathon)"
+- title: "First Place - Dreamspace Track (Encode London Hackathon)"
+  issuer: Space and Time
+  date: 2025-10
+  description: "Built Proctora's landing page using Dreamspace rapid UI tooling for rapid prototyping."
+  details: "Leveraged Space and Time's Dreamspace platform for accelerated UI development and deployment."
+
+- title: "First Place - Innovation Game Benchmarker Track (Encode London Hackathon)"
   issuer: The Innovation Game
   date: 2025-10
-  description: "Ranked first and second across two tracks with a dynamic benchmarking framework."
+  description: "Ranked first in the Benchmarker Track with a dynamic benchmarking framework."
   details: "Adapted algorithm difficulty across distributed systems for TSP and Minimum Superstring problems using Rust and Python."
+
+- title: "Second Place - Innovation Game Innovator Track (Encode London Hackathon)"
+  issuer: The Innovation Game
+  date: 2025-10
+  description: "Ranked second in the Innovator Track for innovative algorithm implementation."
+  details: "Demonstrated creative solutions for distributed algorithm benchmarking and performance optimization."
 
 - title: "First Place - Build with AI (GDG London Mini-Hackathon)"
   issuer: Google Developer Groups London
