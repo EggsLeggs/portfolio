@@ -506,7 +506,7 @@ projectTags:
 - name: Generative AI Leader Certification
   issuer: Google
   date: 2025-12
-  tier: 3
+  tier: 1
   badge: /badges/google-generative-ai-leader.png
   certificate:
     link: /certificates/google-generative-ai-leader.pdf
