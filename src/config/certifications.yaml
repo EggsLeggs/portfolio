@@ -8,6 +8,16 @@
 # - url: link to verification page (e.g., Credly, Microsoft Learn, etc.)
 # - description: brief description of the certification
 
+- name: Professional Cloud Architect Certification
+  issuer: Google
+  date: 2025-12
+  tier: 3
+  badge: /badges/google-professional-cloud-architect.png
+  certificate:
+    link: /certificates/google-professional-cloud-architect.pdf
+    aspectRatio: "22 / 17"
+    height: 692
+
 - name: Generative AI Leader Certification
   issuer: Google
   date: 2025-12
