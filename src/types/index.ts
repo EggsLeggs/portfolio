@@ -30,6 +30,9 @@ export interface Config {
   awards: {
     maxVisible: number;
   };
+  volunteering: {
+    maxVisible: number;
+  };
   projectTags: ProjectTag[];
   hackathonWins: number;
 }

@@ -1,12 +1,55 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { config } from '@/lib/loadConfig';
 import { GithubLogo, LinkedinLogo, EnvelopeSimple, Calendar } from '@phosphor-icons/react';
 
 export function Sidebar() {
   const [activeSection, setActiveSection] = useState('about');
+  const isScrollingRef = useRef(false);
 
+  // Handle initial hash on page load
+  useEffect(() => {
+    const handleInitialHash = () => {
+      const hash = window.location.hash;
+      if (hash) {
+        const id = hash.replace('#', '');
+        const element = document.getElementById(id);
+        if (element) {
+          // Small delay to ensure page is fully loaded
+          setTimeout(() => {
+            isScrollingRef.current = true;
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            setActiveSection(id);
+            // Reset flag after scroll completes
+            setTimeout(() => {
+              isScrollingRef.current = false;
+            }, 1000);
+          }, 100);
+        }
+      } else {
+        // Set initial active section based on scroll position
+        const sections = config.navigation.map(nav => nav.href.replace('#', ''));
+        for (const section of sections) {
+          const element = document.getElementById(section);
+          if (element) {
+            const rect = element.getBoundingClientRect();
+            if (rect.top <= 200 && rect.bottom >= 200) {
+              setActiveSection(section);
+              break;
+            }
+          }
+        }
+      }
+    };
+
+    handleInitialHash();
+  }, []);
+
+  // Handle scroll to update active section
   useEffect(() => {
     const handleScroll = () => {
+      // Don't update hash during programmatic scrolling
+      if (isScrollingRef.current) return;
+
       const sections = config.navigation.map(nav =>
         nav.href.replace('#', '')
       );
@@ -17,21 +60,58 @@ export function Sidebar() {
           const rect = element.getBoundingClientRect();
           if (rect.top <= 200 && rect.bottom >= 200) {
             setActiveSection(section);
+            // Update URL hash without triggering scroll
+            if (window.location.hash !== `#${section}`) {
+              window.history.replaceState(null, '', `#${section}`);
+            }
             break;
           }
         }
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // Handle hash changes from browser navigation (back/forward)
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash;
+      if (hash) {
+        const id = hash.replace('#', '');
+        const element = document.getElementById(id);
+        if (element) {
+          isScrollingRef.current = true;
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          setActiveSection(id);
+          // Reset flag after scroll completes
+          setTimeout(() => {
+            isScrollingRef.current = false;
+          }, 1000);
+        }
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
   const scrollToSection = (href: string) => {
     const id = href.replace('#', '');
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      // Update URL hash
+      window.history.pushState(null, '', href);
+      // Set flag to prevent hash updates during scroll
+      isScrollingRef.current = true;
+      // Scroll to section (scroll-mt classes will be respected automatically)
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setActiveSection(id);
+      // Reset flag after scroll completes
+      setTimeout(() => {
+        isScrollingRef.current = false;
+      }, 1000);
     }
   };
 
