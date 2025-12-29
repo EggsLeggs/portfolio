@@ -512,6 +512,7 @@ projectTags:
     link: /certificates/google-professional-cloud-architect.pdf
     aspectRatio: "22 / 17"
     height: 692
+  url: 'https://www.credly.com/badges/1a3c9496-24df-4d07-bcf4-2d1d223c6cbd/public_url'
 
 - name: Generative AI Leader Certification
   issuer: Google
