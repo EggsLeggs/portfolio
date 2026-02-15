@@ -503,6 +503,12 @@ projectTags:
 # - url: link to verification page (e.g., Credly, Microsoft Learn, etc.)
 # - description: brief description of the certification
 
+- name: AWS Certified Cloud Practitioner
+  issuer: AWS
+  date: 2025-02
+  tier: 1
+  badge: /badges/aws-certified-cloud-practitioner.png
+
 - name: Professional Cloud Architect Certification
   issuer: Google
   date: 2025-12
