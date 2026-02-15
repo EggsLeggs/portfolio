@@ -505,7 +505,7 @@ projectTags:
 
 - name: AWS Certified Cloud Practitioner
   issuer: AWS
-  date: 2025-02
+  date: 2026-02
   tier: 1
   badge: /badges/aws-certified-cloud-practitioner.png
 
