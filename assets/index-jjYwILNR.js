@@ -508,6 +508,7 @@ projectTags:
   date: 2026-02
   tier: 1
   badge: /badges/aws-certified-cloud-practitioner.png
+  url: 'https://www.credly.com/badges/c48b8430-fc5e-4e9d-943a-8721016dcdce/public_url'
 
 - name: Professional Cloud Architect Certification
   issuer: Google
