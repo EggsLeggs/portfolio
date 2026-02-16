@@ -15,6 +15,17 @@
   badge: /badges/aws-certified-cloud-practitioner.png
   url: 'https://www.credly.com/badges/c48b8430-fc5e-4e9d-943a-8721016dcdce/public_url'
 
+- name: CompTIA AI Prompting Essentials
+  issuer: CompTIA
+  date: 2026-02
+  tier: 1
+  badge: /badges/comptia-ai-prompting-essentials.png
+  certificate:
+    link: /certificates/comptia-ai-prompting-essentials.pdf
+    aspectRatio: "22 / 17"
+    height: 692
+  url: 'https://certification.platform.comptia.org/verifycert/6-3C6-BS98N'
+
 - name: Professional Cloud Architect Certification
   issuer: Google
   date: 2025-12
